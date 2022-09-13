@@ -49,10 +49,11 @@ body {
     flex-grow: 0;
 }
 
-button {
+.button1 {
     background-color: #3882F6;
-    border-radius: 8px;
+    border-radius: 4px;
     padding: 3 14px;
+    color:#E5E7EB;
 }
 
 .part-one {
@@ -129,4 +130,39 @@ button {
     text-align: right;
     font-weight: bold;
     font-size: 16px;
+}
+
+.part-four {
+    display: flex;
+    padding: 60px;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.call-to-container {
+    display: flex;
+    background-color: #3882F6;
+    align-items: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-right: 60px;
+    padding-left: 60px;
+    border-radius: 8px;
+}
+
+.button2 {
+    color:#E5E7EB;
+    background-color: transparent;
+    border-radius: 6px;
+    border-color:#E5E7EB;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-left: 80px;
+}
+
+.call-to-words {
+    
 }
