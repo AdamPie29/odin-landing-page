@@ -127,7 +127,9 @@ body {
 }
 
 .quote-thor {
-    text-align: right;
+    display: flex;
+    padding-right: 20px;
+    justify-content: right;
     font-weight: bold;
     font-size: 16px;
 }
@@ -164,5 +166,10 @@ body {
 }
 
 .call-to-words {
-    
+    color:#E5E7EB;
 }
+
+.call-title {
+    font-weight: bold;
+}
+
