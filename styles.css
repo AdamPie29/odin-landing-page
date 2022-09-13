@@ -107,3 +107,26 @@ button {
     text-align: center;
 
 }
+
+.part-three {
+    display: flex;
+    flex-direction: column;
+    background-color:#E5E7EB;
+    padding: 120px;
+    margin-top: 20px;
+
+}
+
+.quote-section {
+    font-style: italic;
+    font-weight: light;
+    font-size: 36px;
+    color: #1F2937;
+
+}
+
+.quote-thor {
+    text-align: right;
+    font-weight: bold;
+    font-size: 16px;
+}
